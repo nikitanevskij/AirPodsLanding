@@ -1,0 +1,27 @@
+.footer {
+  background-color: black;
+  padding: 50px 0 40px;
+  color: white;
+  text-align: center;
+  font-weight: 700;
+}
+
+.footer__link {
+  color: white;
+}
+
+.footer__tel {
+  padding: 20px 0;
+}
+
+.footer__list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0 20px;
+  padding: 80px 0 40px;
+}
+
+.footer__list a {
+  color: white;
+}

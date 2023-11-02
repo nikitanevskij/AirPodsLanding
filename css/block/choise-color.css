@@ -1,0 +1,30 @@
+.choise-color {
+  padding: 45px 0 180px;
+  text-align: center;
+}
+
+.choise-color__title {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.2;
+  max-width: 555px;
+  margin: 0 auto 20px;
+}
+
+.choise-color__text {
+  max-width: 555px;
+  margin: 0 auto 80px;
+  line-height: 1.2;
+}
+
+.choise-color__list {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-column-gap: 40px;
+}
+
+.choise-color__btn {
+  border: 1px solid #777;
+  border-radius: 20px;
+  padding: 50px 55px;
+}

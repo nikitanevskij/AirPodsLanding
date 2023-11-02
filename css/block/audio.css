@@ -1,0 +1,69 @@
+.audio {
+  /* position: relative; */
+  background-image: url("./../../images/airpods/audio_full-bg.jpg");
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+}
+
+/* .audio::before {
+  content: "";
+  background-image: url("./../../images/airpods/audio_bg.jpg");
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  z-index: -2;
+} */
+
+/* .audio::after {
+  content: "";
+  position: absolute;
+  background-image: url("./../../images/airpods/audio_sound.png");
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  background-size: cover;
+  bottom: -250px;
+  height: 150vh;
+  left: 0;
+  right: 0;
+  width: 100%;
+  z-index: -1;
+} */
+
+.audio__inner {
+  min-height: 250vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.audio__box {
+  text-align: center;
+  padding-bottom: 60vh;
+}
+
+.audio__text {
+  color: white;
+  width: 300px;
+  line-height: 1.2;
+  margin-bottom: 15px;
+}
+
+.btn {
+  align-items: center;
+  text-transform: uppercase;
+  font-weight: 700;
+  background-color: white;
+  color: black;
+  padding: 15px 60px;
+  border-radius: 30px;
+  margin-top: 25px;
+}
