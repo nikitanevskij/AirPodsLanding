@@ -17,7 +17,7 @@
   max-width: 625px;
   display: flex;
   justify-content: space-between;
-
+  gap: 20px;
   margin: 0 auto;
 }
 
@@ -28,4 +28,25 @@
   justify-content: space-between;
   gap: 15px;
   line-height: 1.2;
+}
+
+@media (max-width: 1200px) {
+  .composition {
+    padding-bottom: 90px;
+  }
+}
+
+@media (max-width: 666px) {
+  .composition__inner {
+    max-width: 530px;
+  }
+}
+
+@media (max-width: 530px) {
+  .composition__inner {
+    justify-content: center;
+  }
+  .composition__inner--text {
+    width: 100%;
+  }
 }

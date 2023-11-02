@@ -27,4 +27,23 @@
   border: 1px solid #777;
   border-radius: 20px;
   padding: 50px 55px;
+
+  flex-shrink: 0;
+}
+
+@media (max-width: 1200px) {
+  .choise-color__list {
+    grid-template-columns: repeat(2, minmax(auto, 260px));
+    justify-content: center;
+    justify-items: center;
+    gap: 30px;
+  }
+
+  .choise-color {
+    padding-bottom: 70px;
+  }
+
+  .choise-color__text {
+    margin-bottom: 40px;
+  }
 }
