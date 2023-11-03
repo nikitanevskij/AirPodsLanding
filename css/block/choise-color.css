@@ -27,10 +27,11 @@
   border: 1px solid #777;
   border-radius: 20px;
   padding: 50px 55px;
-
-  flex-shrink: 0;
 }
 
+.choise-color__btn--active {
+  display: none;
+}
 @media (max-width: 1200px) {
   .choise-color__list {
     grid-template-columns: repeat(2, minmax(auto, 260px));
@@ -45,5 +46,11 @@
 
   .choise-color__text {
     margin-bottom: 40px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .choise-color__btn {
+    padding: 25px 25px;
   }
 }
