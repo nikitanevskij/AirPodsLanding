@@ -49,8 +49,23 @@
   right: 0;
   bottom: 0;
   width: 100%;
-  background: linear-gradient(180deg, #f3d6d1 0%, rgba(235, 235, 235, 0) 100%);
   z-index: -2;
+}
+
+.header__conten--image:has(.content-item__active.color--red)::before {
+  background: linear-gradient(180deg, #f3d6d1 0%, rgba(235, 235, 235, 0) 100%);
+}
+.header__conten--image:has(.content-item__active.color--white)::before {
+  background: linear-gradient(180deg, #fafafa 0%, rgba(235, 235, 235, 0) 100%);
+}
+.header__conten--image:has(.content-item__active.color--black)::before {
+  background: linear-gradient(180deg, #b6b6b6 0%, rgba(235, 235, 235, 0) 100%);
+}
+.header__conten--image:has(.content-item__active.color--blue)::before {
+  background: linear-gradient(180deg, #cadbeb 0%, rgba(235, 235, 235, 0) 100%);
+}
+.header__conten--image:has(.content-item__active.color--green)::before {
+  background: linear-gradient(180deg, #ddead9 0%, rgba(235, 235, 235, 0) 100%);
 }
 
 .title--pod {
